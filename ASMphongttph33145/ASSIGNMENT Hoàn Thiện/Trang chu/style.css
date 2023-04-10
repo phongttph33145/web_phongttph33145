@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+.logo{
+    margin-left: 73px;
+    margin-right: 190px;
+}
+.nav-link {
+    color: white;
+    font-size: 20px;
+    margin: 0 20px;
+
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+.hotline{
+    margin-left: 120px;
+    margin-right: 120px;
+}
+.hotline img {
+    margin: 0;
+}
+
+.phonenumb {
+    color: #FF8A00;
+    display: flex;
+    align-items: center;
+}
+
+.phonenumb span {
+    font-size: 26px;
+}
+
+.clock-location {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 5px;
+    color: white;
+    padding-left: 5px;
+}
+
+.clock-location .location {
+    padding-left: 5px;
+}
+.navbar-nav{
+    align-items: center;
+}
+.bg-nav{
+    background-color: #287466;
+}
+section .row{
+    margin: 10px 1px;
+}
+.text{
+    padding: 10px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.bg-aside{
+    background-color: #287466;
+    height: 100%;
+}
+.bg-aside iframe{
+    margin-left: 35px;
+    margin-bottom: 30px;
+}
+
+.text a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    
+}
+.text h2{
+    font-size: 28px;
+    text-decoration: underline;
+}
+
+.bg-content{
+    background-color: #287466;
+    color: white;
+    padding: 30px;
+}
+.box{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.content{
+    max-width: 350px;
+}
+.box img{
+    width: 100%;
+    height: auto;
+    padding-bottom: 10px;
+}
+.card-body{
+    text-align: center;
+    background-color: #287466;
+    color: white;
+}
+.card-text{
+    text-align: left;
+}
+.card-title{
+    font-size: 30px;
+    font-weight: 700;
+}
+.card{
+    height: 100%;
+    margin-top: 50px;
+}
+.food{
+    margin-top: 80px;
+    background-color: #287466a8;
+    color: white;
+}
+.food h1{
+    color: white;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.spham h3{
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+}
+footer{
+    background-color: #287466;
+}
+footer .row{
+    padding: 20px;
+}
+.contact{
+    color: white;
+}
+.location{
+    color: white;
+}
+.news{
+    color: white;
+}
+.copyright{
+    color: white;
+    font-size: 18px;
+}
+/* .food .card{
+    height: 100%;
+    margin-top: 50px;
+    border: none;
+    margin-bottom: 50px;
+}
+.food .card-body{
+    background-color: #287466a8;
+    text-align: center;
+    color: white;
+    margin: 0;
+}
+.food .card-text{
+    text-align: left;
+}
+.food .card-title{
+    font-size: 30px;
+    font-weight: 700;
+} */
